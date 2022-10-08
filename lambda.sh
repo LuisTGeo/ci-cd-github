@@ -1,0 +1,1 @@
+aws lambda update-function-code --function-name delete-luis-github --zip-file fileb://deployment_package.zip

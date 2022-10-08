@@ -1,0 +1,21 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.7
+  pre_build:
+    commands:
+      - echo "Installing dependencies ..."
+  build:
+    commands:
+      - echo "Zipping deployment package ... on `date`
+      - ./builzip.sh
+  post_build:
+    commands:
+      - echo "Updating lambda function"
+      - ./lambda.sh
+      - echo "Lambda updated ..."
+# artifacts:
+#   files:
+#     - target/messageUtil-1.0.jar
