@@ -1,7 +1,8 @@
 echo " -----Installing dependencies ... and save it in the lib folder----- "
 # 
 # pip3 install -r requirements.txt -t lib     # it is failling
-pip3 install pandas -t lib
+# pip3 install pandas -t lib
+pip install -r requirements.txt -t lib
 echo " -----Zipping deployment packages...----- "
 cd lib
 # Zipping all the files and save it one folder up
