@@ -1,6 +1,7 @@
 // Policy to add to Codebuild Role to have access to lambda
 
 
+
 {
     "Effect": "Allow",
     "Action": [
