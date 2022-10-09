@@ -13,3 +13,6 @@ echo " -----Zipping lambda_function ...----- "
 zip -g deployment_package.zip lambda_function.py
 
 echo " ----- Finish Zipping ...----- "
+
+
+
