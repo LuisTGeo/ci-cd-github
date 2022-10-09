@@ -9,7 +9,7 @@ phases:
       - echo "Installing dependencies ..."
   build:
     commands:
-      - echo "Zipping deployment package ... on `date`
+      - echo "Zipping deployment package ... on `date` "
       - ./builzip.sh
   post_build:
     commands:
