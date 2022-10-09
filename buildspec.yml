@@ -15,7 +15,7 @@ phases:
     commands:
       - echo "Updating lambda function"
       - aws lambda update-function-code --function-name github-to-lambda-demo --zip-file fileb://deployment_package.zip
-      - echo "Lambda updated ..."
+      - echo "Lambda updated ...."
 # artifacts:
 #   files:
 #     - target/messageUtil-1.0.jar
