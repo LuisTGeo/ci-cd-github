@@ -1,3 +1,2 @@
-lib/*
-./lib
-./deployment_package.zip
+lib
+deployment_package.zip
