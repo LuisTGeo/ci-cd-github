@@ -6,5 +6,5 @@ echo "---git commit . ---"
 git commit -m "$*"
 
 # git commit -m "$(read -p 'Commit description: ')" 
-echo "---git push . ---"
+echo "---git push . --- "
 git push --set-upstream origin development
